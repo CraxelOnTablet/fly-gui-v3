@@ -1,8 +1,7 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{
-
+game:GetService("StarterGui"):SetCore("SendNotification")
                 Title = "Credits";
 
-                Text = "Modified By CraxelOnTablet#2443 dm me for new new scripts";
+                Text = "Modified By CraxelOnTablet#2443 https://discord.gg/jhnvcjge2h";
 
                 Duration = 3.5;
 
@@ -96,7 +95,7 @@ onof.Size = UDim2.new(0, 56, 0, 28)
 
 onof.Font = Enum.Font.SourceSans
 
-onof.Text = "Press To Enable"
+onof.Text = "Fly"
 
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -156,7 +155,7 @@ speed.Size = UDim2.new(0, 44, 0, 28)
 
 speed.Font = Enum.Font.SourceSans
 
-speed.Text = "1 Sd"
+speed.Text = "1"
 
 speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -488,7 +487,7 @@ mine.MouseButton1Down:connect(function()
 
 	if speeds == 1 then
 
-		speed.Text = 'Can't Be 0 Speed'
+		speed.Text = 'Cannot Be 0 Speed'
 
 		wait(1)
 
