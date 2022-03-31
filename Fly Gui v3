@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification")
+game:GetService("StarterGui"):SetCore("SendNotification".{
                 Title = "Credits";
 
                 Text = "Modified By CraxelOnTablet#2443 https://discord.gg/jhnvcjge2h";
